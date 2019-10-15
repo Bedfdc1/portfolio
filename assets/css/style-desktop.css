@@ -155,15 +155,10 @@
 
 	#header-wrapper
 	{
-		padding: 4.5em 0 4em 0;
+		padding: 2.5em 0 1.5em 0;
 	}
 
 	#main-wrapper
-	{
-		padding: 4em 0 4em 0;
-	}
-
-	#footer-wrapper
 	{
 		padding: 4em 0 4em 0;
 	}
@@ -222,7 +217,7 @@
 			#nav > ul > li > a
 			{
 				border-radius: 5px;
-				color: #5d5d5d;
+				color: skyblue;
 				text-decoration: none;
 				padding: 0.6em 1.2em 0.6em 1.2em;
 				-moz-transition: background-color .25s ease-in-out;

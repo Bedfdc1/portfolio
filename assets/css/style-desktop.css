@@ -390,6 +390,8 @@
 		#intro p
 		{
 			margin: 0;
+			color: navajowhite;
+			font-size: 1.11em;
 		}
 	
 		#intro .middle

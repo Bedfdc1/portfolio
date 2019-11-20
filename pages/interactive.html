@@ -47,9 +47,16 @@ layout: default
 								<p>
 									Because I was using Gamefroots online animator and exporting out individual keyframes as PNG's, I ended up with a lot of files. I set up a simple asset folder that segmented these out into groups; these would be; Character Sprites, Enemy / Item Sprites, Background & Menu files, and a separate folder in which I kept all of the Raw Animate / Illustrator / PS Files. As for Individual file names, they were kept to one word and a number so that I knew what animation they were for, and what frame they were. This made reassembling things incredibly easy; for example, if I wanted the Death animation, I knew I just needed to go in the character folder, find the files named death, and reconstruct them in numerical order.  
 								</p>
-								<img style="width:90%;height:auto; margin: 0 auto; display: block;" src="{{ site.baseurl }}/assets/images/version.png" alt="Asset Managment"/>
+								<figure>
+									<img style="width:90%;height:auto; margin: 0 auto; display: block;" src="{{ site.baseurl }}/assets/images/unorganised.png" alt="All Assets"/>
+										<figcaption style="text-align: center;">All Created Base Assets (Unorganised, Yuck.)</figcaption>
+								</figure>
 								<br>
 								<p>Due to me nearly deleting a project earlier in the semester and it putting the fear of God in me, I decided to version control all of my files. This was done with the usual git repository. I was also skeptical about keeping all of my build progress online on Gamefroots servers as I didn't really know how safe they were. Game Froot, however, allows you to download and import your project data as JSON files, so at the end of every build sprint, I would download a new JSON file and store it in my Git repository just incase.</p>
+								<figure>
+									<img style="width:80%;height:auto; margin: 0 auto; display: block;" src="{{ site.baseurl }}/assets/images/version.png" alt="Asset Managment"/>
+									<figcaption style="text-align: center;">My Awesome Asset Managment System)</figcaption>
+								</figure>
 							</section>
 							<section>
 								<header>
@@ -125,9 +132,36 @@ layout: default
 									</div>
 								</div>
 								<p>I have drawn up the opening screen title and buttons. The title is disjointed, and out of proportion on purpose, as to be as abstract as possible. I have kept the background color as the same solid color that will feature throughout the level; this has been done for continuity.</p>
-								<img style="width:80%;height:auto; margin: 0 auto; display: block;" src="{{ site.baseurl }}/assets/images/start.png" alt="Start Screen"/>
-							</section>
-							<p>As game collectibles go, I made every asset in the game from scratch. It's also worth noting here that I put far to much time into making sure that all of my animations for the collectibles ran at different speeds. This was to help give everything its own feel and improve the experience to feel a wee bit more dynamic.</p>
+								<img style="width:80%;height:auto; margin: 0 auto 20px auto; display: block;" src="{{ site.baseurl }}/assets/images/start.png" alt="Start Screen"/>
+								<p>As game collectibles go, I made every asset in the game from scratch. It's also worth noting here that I put far to much time into making sure that all of my animations for the collectibles ran at different speeds. This was to help give everything its own feel and improve the experience to feel a wee bit more dynamic.</p>
+								<header>
+                                <h3>Colours</h3>
+                                </header>
+								<p>As mentioned before, a big part of the level design was contrast. I wanted this also to follow the blocky art theme I had set. I have chosen a grey background to make the foreground pop. I wanted everything to seem blocky and almost paint like so I have decided to try and stick with big solid primary and secondary colors. Things such as platforms and collectibles have been given green and yellow colors, as this is conventional for objects that are good or collectible in the game. The danger areas, harmful paint/lava, have been given a straight solid red and orange color, this is so that, without me giving you a tutorial, you'll subconsciously know that these are bad areas. I find the design to be simple but achieve precisely what it needs to.</p>
+								<header>
+                                <h3>Sound</h3>
+                                </header>
+								<p>In the beginning, there was nothing, and then Dion said: "Let there be sound."</p>
+								<p>And then he took it away...</p>
+								<p>This one irks me. I do feel like sound would add to the experience, but only in small ways. The opportunity was also an excellent wee way to play with the back end of Gamefroots scripting, as the is no "Block" for playing sounds. The script runs the same as most games (In my little experience with the Unity engine.) Everything is assigned an event listener, and most variables are set to public (Don't tell Dale) so that they can be accessed and then set on the object while changing variables outside of the script. A relatively straightforward process, it was also nice to see how the back end of these "blocks" was designed, not efficiently, to say the least.</p>
+								<img style="width:80%;height:auto; margin: 0 auto 20px auto; display: block;" src="{{ site.baseurl }}/assets/images/code.png" alt="Code"/>
+								<p>As I didn't think that much sound was needed, I felt that a pure coin `ding` or jump sound would be enough, and at the base level, they were. However, these repetitive noises are really, really, annoying without the inclusion of ambient background noises. As a design choice, these types of things usually work in fast-paced android style "infinite" score kind of games with lots of flashy particle effects, but Bricasso is not one of those games.</p>
+                                <p>Ultimately if I had more time, I would have liked to build a kind of ambient renaissance style back track and add some small softer noises, such as jumping and pick up sounds, in the foreground for player feedback. This was just out of the development timeframe of this project, unfortunately.</p>
+                            </section>
+                            <section>
+                                <header>
+                                    <h3>Playtests / Testamonials</h3>
+                                </header>
+                                <p>
+                                    All this design theory is great and all, but it doesn't mean anything if your final audience hates your game. Truth be told, I spent hours crafting this color driven, acid-fueled, 1990s platformer, and I just wanted to watch someone enjoy it. The consensus was a good one, which I'm actually quite pleased about.
+                                </p>
+                                <ul>
+                                    <li>"I'd Invest in Brickasso 2" - Jae</li>
+                                    <li>"Yo this is dope" - Nick</li>
+                                    <li>"Your level design is horrible, yet I like the game, and I don't know why. The Jump animation is impressively fluid." - James</li>
+                                    <li>"Dank memes, make Bricasso Dreams. 10/10" - Giullia</li>
+                                </ul>
+                            </section>
 						</article>
 
 				</div>
